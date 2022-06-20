@@ -3,5 +3,5 @@ resource "helm_release" "prometheus" {
 
   repository = "https://charts.bitnami.com/bitnami"
   chart      = "kube-prometheus"
-  version    = "6.8.2"
+  version    = "8.0.7"
 }
